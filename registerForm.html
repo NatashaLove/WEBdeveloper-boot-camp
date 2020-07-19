@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form>
+	<div>
+	<label for="fname" >First Name:</label>
+	<input name="fname" placeholder="John" id="fname" type="text"  required>
+	<label for="lname">Last Name:</label>
+	<input name="lname" placeholder="Smith" id="lname" type="text" required>
+	</div>
+	<div>
+	<label for="female">Female:</label>
+	<input name="choice" id="female" type="radio" value="FEMALE"> 
+	<label for="male">Male:</label>
+	<input name="choice" id="male" type="radio" value="MALE"> 
+	<label for="other">Other:</label>
+	<input name="choice" id="other" type="radio" value="OTHER">
+	</div>
+
+	<label for="email">
+		Email:
+	</label>
+	<input id="email" type="email" placeholder="email" required> <!--Don't have to do ="true", because just required- means true. Required means th attribute is required there -->
+	<label for="password">
+		Password: 
+	</label>
+	<input id="password" type="password" placeholder ="password" pattern=".{5,10}"  required title=" Password must be between 5 and 10 characters"> <!--otherwise won't continue if left empty - won't submit the form and won't refresh the page-->
+	<!-- minlength="5" maxlength="10" - is not alwayssupported, better use pattern -->
+
+	<div>
+	<label>Birthday:
+	<select name="month">
+		<option value="m">month</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+
+	</select>
+
+	<select name="day">
+
+		<option value="d">day</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+		<option value="16">16</option>
+		<option value="17">17</option>
+
+	</select>
+
+	<select name="year">
+		<option value="y">year</option>
+		<option value="1980">1980</option>
+		<option value="1981">1981</option>
+		<option value="1982">1982</option>
+		<option value="1983">1983</option>
+		<option value="1984">1984</option>
+		<option value="1985">1985</option>
+		<option value="1986">1986</option>
+		<option value="1987">1987</option>
+
+	</select>
+	</label>
+	</div>
+	<div>
+
+		<label for="agree" >I agree to the terms and conditions</label>
+	 <input id="agree" type="checkbox" required ></p>
+	</div>
+	<input type="submit" name="Submit">
+
+</form>
+
+</body>
+</html>

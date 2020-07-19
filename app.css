@@ -1,0 +1,9 @@
+h1 {
+		color: #0A00F0;
+	}
+li {
+		color: rgb(100, 25, 150);
+	}
+h4 {
+		color: rgba(20, 200, 30, .5); /*4th alfa channel is for transparency- between 0 and 1 with . (.3)*/
+	}

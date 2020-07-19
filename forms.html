@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+	<h1> Login</h1>
+<!-- action - where the form sends data to -->
+<!-- method - what HTTP method (get/post) -->
+<!-- example: <form action="http://wikipedia.org" method="GET"> -->
+	<!--name="" - naqme to the piece of data -->
+
+<form action="http://wikipedia.org" method="GET">
+	<label for="email">
+		Email:
+	</label>
+	<input id="email" type="email" placeholder="email" required> <!--Don't have to do ="true", because just required- means true. Required means th attribute is required there -->
+	<label for="password">
+		Password: 
+	</label>
+	<input id="password" type="password" placeholder ="password" required> <!--otherwise won't continue if left empty - won't submit the form and won't refresh the page-->
+	
+	<input type="submit" name="Submit">
+</form>
+
+hiiiiiiii
+</body>
+</html>
