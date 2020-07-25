@@ -1,0 +1,28 @@
+body {
+	font-size: 10px;
+	font-family: Arial;
+}
+
+p {
+	font-family: Georgia;
+	
+	font-size: 2.0em;
+	font-weight: 300; /*some fonts can change in numbers /hundreds/ 100-800*/
+
+	line-height:2; /*spacing between lines*/
+
+}
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 5.0em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+}
+span {
+	font-size: 2.0em;
+	text-decoration: line-through; 
+}
+/* em - dynamic element-depends on the parent - mostly - body is the parent.all initial style- in body.
+ 2.0em == double the font size of the enclosing element of the parent element which is this paragraph
+*/

@@ -1,0 +1,28 @@
+body {
+	align: center;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+
+}
+table {
+	margin: auto;
+}
+
+td {
+	padding:10px; /*between border and element*/
+	
+	margin: 10 auto;
+	height: 100px;
+	width: 100px;
+}
+
+.vertical {
+	border-left: 1px solid black;
+}
+.horizontal {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
