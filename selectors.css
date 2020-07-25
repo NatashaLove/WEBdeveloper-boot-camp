@@ -1,0 +1,56 @@
+div {}
+#id {}
+.class {}
+
+* {
+	border: 1px solid lightgrey;
+} /* the '*' influences every elemet 
+*/
+
+/*Descendant selector - tag inside tag */
+
+li a {
+	color: yellow;
+}
+
+/* Adjacent selector - for all ul after h4 -example-(not inside, but the same level)*/
+h4 + ul {
+	border: 4px solid green;
+}
+
+/* Attribute selector*/
+a[href="http://www.google.com"] {
+	background: lightblue;
+}
+
+input[type="checkbox"] {
+	background: black;
+}
+
+/* nth of type - for a partocular number/item in oreder (fifth)*/
+li:nth-of-type(3){
+	background: pink;
+}
+/* if there are several groups of elements - will be chosen in every group*/
+ 
+ /* even - every other element*/
+ li:nth-of-type(even){ 
+ 	color: navy;
+ }
+
+ /* Class, Attribute and Pseudo-Class Selectors*/
+
+ .hello { /* class*/
+
+ }
+
+ input[type="text"] { /*attribute*/
+ }
+
+/* pseudoclass selectors*/
+ a:hover
+ input:checked
+
+ /*ID selectors /id win in specificcity/*/
+
+ #special

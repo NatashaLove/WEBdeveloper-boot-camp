@@ -1,9 +1,31 @@
 h1 {
-		color: #0A00F0;
+		color: #0AFFF8;
+		/*
+		border-color: purple;
+		border-width: 5px;
+		border-style: solid;
+		- is the same as this- 
+		*/
+
+		border: 5px dashed purple;
+
 	}
 li {
 		color: rgb(100, 25, 150);
 	}
 h4 {
-		color: rgba(20, 200, 30, .5); /*4th alfa channel is for transparency- between 0 and 1 with . (.3)*/
+	background: #ee0faa;
+		color: rgba(20, 210, 30, .7); /*4th alfa channel is for transparency- between 0 and 1 with . (.3)*/
 	}
+body {
+	/*from web - copy img location = url*/
+	background: url(https://witchipedia.com/wp-content/uploads/2019/11/52e3d1424f52ac14ea898579ce203e7c1d22dfe05452794f732d7ad2_640.png);/*#95a5f6;-bg color*/
+	background-repeat: no-repeat; /*not to tile the image*/
+	/*background-size:  cover; /* to stretch the img*/
+}
+div {
+	background: #3498db;
+}
+p{
+	color: #ecf0f1;
+	background: #51aada;
