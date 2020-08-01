@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Grid System</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<style type="text/css">
+		.pink {
+			background: pink;
+			border: 1px solid purple;
+		}
+		.orange {
+			background: orange;
+			border: 1px dashed red;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container"> 
+<!--
+	<div class="row">
+		<div class="col-sm-2 pink">COL LG 2 pink</div> <!--.class names in the same "" with just space/ COL lg 6 - how many out of 12 it takes- the rest spread UP TO 12 units! --
+		<div class="col-sm-6 pink">COL LG 6 pink</div>
+		<div class="col-sm-4 pink">COL LG 4 pink</div>
+	</div>
+-->
+	<div class="row">
+		<div class=" col-md-3  col-sm-6  pink">
+			<div class="row"> <!-- another grid with 12 units- MUST START with row, cant just put column into column-->
+				<div class="col-lg-6 orange">First</div> 
+				<div class="col-lg-6 orange">second</div>
+			</div>
+		</div> <!--another grid under- spread UP TO 12 units! 
+		don't have to specify lg units if specified md (col-lg-3)-->
+		<div class=" col-md-3  col-sm-6 pink">TOUR DATE!</div>
+		<div class=" col-md-3 col-sm-6  pink">TOUR DATE!</div>
+		<div class=" col-md-3  col-sm-6 pink">TOUR DATE!</div>
+	</div>
+
+</div>
+
+</body>
+</html>

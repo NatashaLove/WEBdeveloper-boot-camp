@@ -1,0 +1,21 @@
+body {
+	padding-top: 70px;
+}
+/* this padding creates space between top of page - where navbar is fixed and the rest of the body*/
+
+.jumbotron {
+	color: #2c3e50; /* everything is going t o be this color inside jumbotron- even icon*/
+	background:  #ecf0f1; /* not sure if working here*/
+}
+
+.navbar-expand-lg {
+	background: blue;
+	color: white;
+} /* doesn't work in this version*/
+/*
+to override styles - peep in inspector on example site the code
+*/
+a {
+	color: white;
+}
+
