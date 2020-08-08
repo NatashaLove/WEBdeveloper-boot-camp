@@ -1,0 +1,53 @@
+body {
+	background: url(https://images.unsplash.com/photo-1546190255-451a91afc548?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80);
+	background-size: cover;
+	background-position: center;
+	
+/*these 2 props: center, cover ;  and html height:100%  ---have 1 no repeat img full screen and dynamically changing*/
+
+	font-family: 'Lato', sans-serif;
+	color: white; /* h1, h3 etc coded manually will be influenced, but not what is from bootstrap inheeted
+	- to override style code from library- need to see specific code*/
+	}
+
+html {
+	height: 100%; /* for the page not to mess up image and be dynamic, not fixed size*/
+}
+#content {
+	text-align: center;
+	
+	padding-top: 40%; /* % better- will dynamically change with screen*/
+	text-shadow: 2px 4px 1px green,
+				 0px 8px 10px orange, 
+				 0px 14px 23px yellow;
+				 /* 3 shadows -with: x, y, radius, color
+shades of the same color - add depth to the page
+				 */
+
+}
+
+button {
+	color: #f1f1f1;
+}
+
+/*
+h1, h3{
+	text-align: center;
+	}
+ can group elements like this*/
+
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+	
+
+}
+hr {
+
+	width: 400px;
+	text-align: center;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1 px solid rgba(0,0,0,0.2); /* for shadow on hr*/
+	
+}
